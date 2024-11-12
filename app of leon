@@ -1,0 +1,39 @@
+{
+  "app_name": "Leon",
+  "sections": [
+    {
+      "title": "BREAKING CHANGES",
+      "grep": "BREAKING"
+    },
+    {
+      "title": "Features",
+      "grep": "^feat"
+    },
+    {
+      "title": "Bug Fixes",
+      "grep": "^fix"
+    },
+    {
+      "title": "Performance Improvements",
+      "grep": "^perf"
+    },
+    {
+      "title": "Documentation Changes",
+      "grep": "^docs"
+    }
+  ]
+}# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+[*.py]
+indent_size = 4
